@@ -1,0 +1,26 @@
+﻿<Window x:Name="frmSubject1" x:Class="Studentska_služba.Forme.frmSubject"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Studentska_služba.Forme"
+        mc:Ignorable="d"
+        Title="Add/Edit subject" Height="450" Width="800" Background="#FF9DBBF1">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="127*"/>
+            <ColumnDefinition Width="282*"/>
+            <ColumnDefinition Width="274*"/>
+            <ColumnDefinition Width="109*"/>
+        </Grid.ColumnDefinitions>
+        <Label x:Name="label" Grid.ColumnSpan="2" Content="Name of subject" HorizontalAlignment="Left" Height="26" Margin="110,75,0,0" VerticalAlignment="Top" Width="214" FontWeight="Bold" Background="#FF786FCF"/>
+        <Label x:Name="label_Copy" Grid.ColumnSpan="2" Content="Professor" HorizontalAlignment="Left" Height="24" Margin="110,157,0,0" VerticalAlignment="Top" Width="214" FontWeight="Bold" Background="#FF786FCF"/>
+        <Label x:Name="label_Copy1" Grid.ColumnSpan="2" Content="ESPB" HorizontalAlignment="Left" Height="24" Margin="110,241,0,0" VerticalAlignment="Top" Width="214" FontWeight="Bold" Background="#FF786FCF"/>
+        <TextBox x:Name="txtNameOfSubject" Grid.Column="2" HorizontalAlignment="Left" Height="24" Margin="29,75,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="212"/>
+        <TextBox x:Name="txtProfessor" Grid.Column="2" HorizontalAlignment="Left" Height="24" Margin="29,157,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="212"/>
+        <TextBox x:Name="txtESPB" Grid.Column="2" HorizontalAlignment="Left" Height="24" Margin="29,241,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="212"/>
+        <Button x:Name="btnSave" Grid.ColumnSpan="2" Content="Save" HorizontalAlignment="Left" Height="27" Margin="110,341,0,0" VerticalAlignment="Top" Width="150" Click="btnSave_Click" BorderThickness="5" BorderBrush="#FF786FCF"/>
+        <Button x:Name="btnCancel" Content="Cancel" HorizontalAlignment="Left" Height="27" Margin="91,341,0,0" VerticalAlignment="Top" Width="150" Grid.Column="2" Click="btnCancel_Click" BorderBrush="#FF786FCF" BorderThickness="5"/>
+
+    </Grid>
+</Window>

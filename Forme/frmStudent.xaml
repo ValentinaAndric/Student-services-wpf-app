@@ -1,0 +1,33 @@
+﻿<Window x:Name="frmStudent1" x:Class="Studentska_služba.Forme.frmStudent"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Studentska_služba.Forme"
+        mc:Ignorable="d"
+        Title="Add/Edit student" Height="450" Width="800" Background="#FF9DBBF1">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="329*"/>
+            <ColumnDefinition Width="463*"/>
+        </Grid.ColumnDefinitions>
+        <Label HorizontalAlignment="Left" Height="24" Margin="133,24,0,0" VerticalAlignment="Top" Width="214" Content="Name" Grid.ColumnSpan="2" FontWeight="Bold" Background="#FF786FCF"/>
+        <Label x:Name="label_Copy" Content="Surname" HorizontalAlignment="Left" Height="24" Margin="133,70,0,0" VerticalAlignment="Top" Width="214" Grid.ColumnSpan="2" FontWeight="Bold" Background="#FF786FCF"/>
+        <Label x:Name="label" Content="Number od index" HorizontalAlignment="Left" Height="24" Margin="133,124,0,0" VerticalAlignment="Top" Width="214" FontWeight="Bold" Background="#FF786FCF" Grid.ColumnSpan="2"/>
+        <Label x:Name="label1" Content="Adress" HorizontalAlignment="Left" Height="24" Margin="133,176,0,0" VerticalAlignment="Top" Width="214" Grid.ColumnSpan="2" FontWeight="Bold" Background="#FF786FCF"/>
+        <Label x:Name="label2" Content="City" HorizontalAlignment="Left" Height="24" Margin="133,226,0,0" VerticalAlignment="Top" Width="214" FontWeight="Bold" Background="#FF786FCF" Grid.ColumnSpan="2"/>
+        <Label x:Name="label_Copy1" Content="Contact" HorizontalAlignment="Left" Height="24" Margin="133,268,0,0" VerticalAlignment="Top" Width="214" RenderTransformOrigin="0.502,0.125" Grid.ColumnSpan="2" FontWeight="Bold" Background="#FF786FCF"/>
+        <Label x:Name="label_Copy2" Content="Study program" HorizontalAlignment="Left" Height="26" Margin="133,324,0,0" VerticalAlignment="Top" Width="214" Grid.ColumnSpan="2" FontWeight="Bold" Background="#FF786FCF"/>
+        <TextBox x:Name="txtName" HorizontalAlignment="Left" Height="24" Margin="107,24,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="220" Grid.Column="1"/>
+        <TextBox x:Name="txtSurname" HorizontalAlignment="Left" Height="24" Margin="107,70,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="220" Grid.Column="1"/>
+        <TextBox x:Name="txtNumberOfIndex" HorizontalAlignment="Left" Height="24" Margin="107,124,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="220" Grid.Column="1"/>
+        <TextBox x:Name="txtAdress" HorizontalAlignment="Left" Height="24" Margin="107,176,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="220" Grid.Column="1"/>
+        <TextBox x:Name="txtCity" HorizontalAlignment="Left" Height="24" Margin="107,226,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="220" Grid.Column="1"/>
+        <TextBox x:Name="txtContact" HorizontalAlignment="Left" Height="24" Margin="107,276,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="220" Grid.Column="1"/>
+        <ComboBox x:Name="cbxStudyProgram" DisplayMemberPath="NameOfStudyProgram" SelectedValuePath="StudyProgramID" Grid.Column="1" HorizontalAlignment="Left" Height="24" Margin="107,324,0,0" VerticalAlignment="Top" Width="220"/>
+        <Button x:Name="btnSave" Content="Save" HorizontalAlignment="Left" Height="27" Margin="133,367,0,0" VerticalAlignment="Top" Width="150" Click="btnSave_Click" BorderThickness="5" BorderBrush="#FF786FCF"/>
+        <Button x:Name="btnCancel" Content="Cancel" HorizontalAlignment="Left" Height="27" Margin="177,367,0,0" VerticalAlignment="Top" Width="150" Grid.Column="1" Click="btnCancel_Click" BorderThickness="5" BorderBrush="#FF786FCF"/>
+
+    </Grid>
+</Window>

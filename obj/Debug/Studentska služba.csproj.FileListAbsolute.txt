@@ -1,0 +1,28 @@
+C:\Users\PC\Desktop\Projekat iz PIS\Studentska služba\obj\Debug\Studentska služba.csprojAssemblyReference.cache
+C:\Users\PC\Desktop\Projekat iz PIS\Studentska služba\obj\Debug\Forme\frmClassroom.g.cs
+C:\Users\PC\Desktop\Projekat iz PIS\Studentska služba\obj\Debug\Forme\frmEmployee.g.cs
+C:\Users\PC\Desktop\Projekat iz PIS\Studentska služba\obj\Debug\Forme\frmExam.g.cs
+C:\Users\PC\Desktop\Projekat iz PIS\Studentska služba\obj\Debug\Forme\frmPaymentSlip.g.cs
+C:\Users\PC\Desktop\Projekat iz PIS\Studentska služba\obj\Debug\Forme\frmStudent.g.cs
+C:\Users\PC\Desktop\Projekat iz PIS\Studentska služba\obj\Debug\Forme\frmStudyProgram.g.cs
+C:\Users\PC\Desktop\Projekat iz PIS\Studentska služba\obj\Debug\Forme\frmSubject.g.cs
+C:\Users\PC\Desktop\Projekat iz PIS\Studentska služba\obj\Debug\MainWindow.g.cs
+C:\Users\PC\Desktop\Projekat iz PIS\Studentska služba\obj\Debug\App.g.cs
+C:\Users\PC\Desktop\Projekat iz PIS\Studentska služba\obj\Debug\Studentska služba_MarkupCompile.cache
+C:\Users\PC\Desktop\Projekat iz PIS\Studentska služba\obj\Debug\Studentska služba_MarkupCompile.lref
+C:\Users\PC\Desktop\Projekat iz PIS\Studentska služba\bin\Debug\Studentska služba.exe.config
+C:\Users\PC\Desktop\Projekat iz PIS\Studentska služba\bin\Debug\Studentska služba.exe
+C:\Users\PC\Desktop\Projekat iz PIS\Studentska služba\bin\Debug\Studentska služba.pdb
+C:\Users\PC\Desktop\Projekat iz PIS\Studentska služba\obj\Debug\Forme\frmClassroom.baml
+C:\Users\PC\Desktop\Projekat iz PIS\Studentska služba\obj\Debug\Forme\frmEmployee.baml
+C:\Users\PC\Desktop\Projekat iz PIS\Studentska služba\obj\Debug\Forme\frmExam.baml
+C:\Users\PC\Desktop\Projekat iz PIS\Studentska služba\obj\Debug\Forme\frmPaymentSlip.baml
+C:\Users\PC\Desktop\Projekat iz PIS\Studentska služba\obj\Debug\Forme\frmStudent.baml
+C:\Users\PC\Desktop\Projekat iz PIS\Studentska služba\obj\Debug\Forme\frmStudyProgram.baml
+C:\Users\PC\Desktop\Projekat iz PIS\Studentska služba\obj\Debug\Forme\frmSubject.baml
+C:\Users\PC\Desktop\Projekat iz PIS\Studentska služba\obj\Debug\MainWindow.baml
+C:\Users\PC\Desktop\Projekat iz PIS\Studentska služba\obj\Debug\Studentska služba.g.resources
+C:\Users\PC\Desktop\Projekat iz PIS\Studentska služba\obj\Debug\Studentska_služba.Properties.Resources.resources
+C:\Users\PC\Desktop\Projekat iz PIS\Studentska služba\obj\Debug\Studentska služba.csproj.GenerateResource.cache
+C:\Users\PC\Desktop\Projekat iz PIS\Studentska služba\obj\Debug\Studentska služba.exe
+C:\Users\PC\Desktop\Projekat iz PIS\Studentska služba\obj\Debug\Studentska služba.pdb

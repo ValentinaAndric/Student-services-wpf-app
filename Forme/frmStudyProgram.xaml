@@ -1,0 +1,18 @@
+﻿<Window x:Name="frmStudyProgram1" x:Class="Studentska_služba.Forme.frmStudyProgram"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Studentska_služba.Forme"
+        mc:Ignorable="d"
+        Title="Add/Edit Study program" Height="450" Width="800" Background="#FF9DBBF1">
+    <Grid>
+        <Label x:Name="label" Content="Name od study program" HorizontalAlignment="Left" Height="26" Margin="114,76,0,0" VerticalAlignment="Top" Width="214" FontWeight="Bold" Background="#FF786FCF"/>
+        <Label x:Name="label_Copy" Content="Duration" HorizontalAlignment="Left" Height="24" Margin="114,142,0,0" VerticalAlignment="Top" Width="214" FontWeight="Bold" Background="#FF786FCF"/>
+        <TextBox x:Name="txtNameOfStudyProgram" HorizontalAlignment="Left" Height="24" Margin="410,76,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="256"/>
+        <TextBox x:Name="txtDuration" HorizontalAlignment="Left" Height="24" Margin="410,142,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="256"/>
+        <Button x:Name="btnSave" Content="Save" HorizontalAlignment="Left" Height="27" Margin="114,326,0,0" VerticalAlignment="Top" Width="150" Click="btnSave_Click" BorderThickness="5" BorderBrush="#FF786FCF"/>
+        <Button x:Name="btnCancel" Content="Cancel" HorizontalAlignment="Left" Height="27" Margin="516,326,0,0" VerticalAlignment="Top" Width="150" Click="btnCancel_Click" BorderThickness="5" BorderBrush="#FF786FCF"/>
+
+    </Grid>
+</Window>
